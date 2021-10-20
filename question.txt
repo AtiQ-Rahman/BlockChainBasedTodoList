@@ -1,0 +1,6 @@
+1.diff between storage,calldata,stack,memory?
+memory should be used when declaring variables (both function parameters as well as inside the logic of a function) that you want stored in memory (temporary), and calldata must be used when declaring an external function's dynamic parameters.
+
+The easiest way to think about the difference is that calldata is a non-modifiable, non-persistent area where function arguments are stored, and behaves mostly like memory.
+2.ToDo.deployed().then((i) => inst=i);??
+3.solidity supports Overloading Overriding?
