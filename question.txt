@@ -4,3 +4,5 @@ memory should be used when declaring variables (both function parameters as well
 The easiest way to think about the difference is that calldata is a non-modifiable, non-persistent area where function arguments are stored, and behaves mostly like memory.
 2.ToDo.deployed().then((i) => inst=i);??
 3.solidity supports Overloading Overriding?
+4.let balance = await instance.getBalance(accounts[0])
+balance.toNumber()

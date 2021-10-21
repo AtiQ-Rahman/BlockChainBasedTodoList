@@ -1,0 +1,21 @@
+{
+  "name": "ToDoList",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "truffle": "^5.4.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node server.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
